@@ -1,0 +1,52 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+binary search tree yapısını oluşturmak için öncelikle root node seçeriz.
+ben 5 sayısını root olarak seçiyorum.
+
+          5
+          
+daha sonrasında dizideki elemanları sırayla 5'le karşılaştırıp yerleştirmeye başlıyorum.
+7 sayısı, 5'ten büyüktür. yani 5'in sagına gider.
+
+          5
+            7
+sonrasında 1 sayısı ile 5'i kıyaslarız. 1 kücük oldugu için sola gider.
+
+          5
+        1   7
+adımları devam ettirirsek
+
+          5
+        1   7 
+              8
+-----------------------------------------------
+            5
+         1     7 
+           3     8
+-----------------------------------------------
+            5
+         1      7 
+           3   6   8      
+-----------------------------------------------
+            5
+         1      7 
+       0   3   6   8    
+-----------------------------------------------
+            5
+         1      7 
+       0   3   6   8  
+                      9
+-----------------------------------------------
+              5
+         1         7 
+       0   3     6   8  
+             4          9   
+-----------------------------------------------
+              5
+         1         7 
+       0   3     6   8  
+          2   4          9   
+          
+şeklinde ağaç yapımızı olusturmus oluruz          
