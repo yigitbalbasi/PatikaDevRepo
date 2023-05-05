@@ -3,6 +3,7 @@ Bu repo [kodluyoruz](https://github.com/yigitbalbasi/PatikaDevRepo.git) Front-En
 
 # Installation
 Öncelikle projeyi [clone'layın.](https://github.com/yigitbalbasi/PatikaDevRepo.git) 
+
 `git clone https://github.com/yigitbalbasi/PatikaDevRepo.git`
 
 # Usage
