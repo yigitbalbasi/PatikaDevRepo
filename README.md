@@ -10,7 +10,9 @@ Bu repo [kodluyoruz](https://github.com/yigitbalbasi/PatikaDevRepo.git) Front-En
 Projeyi clone'ladıktan sorna Visual Studio Code programında açınız.
 
 Linux için:
+
 ` cd PatikaDevRepo`
+
 ` code . `
 
 # Contributing
